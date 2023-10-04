@@ -1,0 +1,7 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container-fluid{
+    background-image: linear-gradient(to bottom right, rgb(236, 212, 212), rgb(243, 243, 218));
+}
