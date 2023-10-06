@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="header">
+        <div class="header" id="top">
             <div class="row p-2">
                 <div class="col-md-8">
                     <img src="Images/LOGO.jpg" alt="Logo" width="300px" height="100px">
@@ -28,7 +28,7 @@
             <div class="container bg-white shadow">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <ul class="nav">
+                        <ul class="nav fixed">
                             <li class="nav-item"><a class="nav-link" href="">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="">About Us</a></li>
                             <li class="nav-item"><a class="nav-link" href="">Resources</a></li>
@@ -47,7 +47,7 @@
             <div class="col-md-6">
                 <table class="table table-hover">
                     <tr>
-                        <td colspan="2"><i class="fa-solid fa-star-of-life"></i><h4>NEWS</h4></td>
+                        <td colspan="2"><i class="fa-solid fa-star-of-life"></i><span>NEWS</span></td>
                     </tr>
                     <tr>
                         <td>23/11/2022</td>
@@ -68,7 +68,7 @@
                 </table>
                 <table class="table table-hover">
                     <tr>
-                        <td colspan="2"><i class="fa-solid fa-star-of-life"></i><h4>NEWS</h4></td>
+                        <td colspan="2"><i class="fa-solid fa-star-of-life"></i><span>NEWS</span></td>
                     </tr>
                     <tr>
                         <td>23/11/2022</td>
@@ -91,6 +91,61 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container">
+        <h3>Library</h3>
+        <div class="row">
+            <div class="col-md-6">                
+                <div class="card">
+                    <div class="card-header text-primary">Historical Background</div>
+                    <div class="card-body">
+                        <img src="Images/Img1.jpg" alt="Image">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae ex nobis distinctio officia, odit sint esse vitae atque odio corrupti expedita minus fuga neque laudantium, unde explicabo quis labore amet?</p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-md-6">                
+                <div class="card">
+                    <div class="card-header text-danger">Reference Service</div>
+                    <div class="card-body">
+                        <img src="Images/Img1.jpg" alt="Image">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae ex nobis distinctio officia, odit sint esse vitae atque odio corrupti expedita minus fuga neque laudantium, unde explicabo quis labore amet?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">                
+                <div class="card">
+                    <div class="card-header text-primary">Historical Background</div>
+                    <div class="card-body">
+                        <img src="Images/Img1.jpg" alt="Image">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae ex nobis distinctio officia, odit sint esse vitae atque odio corrupti expedita minus fuga neque laudantium, unde explicabo quis labore amet?</p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-md-6">                
+                <div class="card">
+                    <div class="card-header text-primary">Reference Service</div>
+                    <div class="card-body">
+                        <img src="Images/Img1.jpg" alt="Image">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae ex nobis distinctio officia, odit sint esse vitae atque odio corrupti expedita minus fuga neque laudantium, unde explicabo quis labore amet?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul class="pagination pagination-lg justify-content-center">
+        <!--<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>-->
+        <li class="page-item"><a class="page-link" href="#" title="Back">&#x21E6;</a></li>
+        <li class="page-item"><a class="page-link" href="#" title="Next">&#x21E8;</a></li>
+    </ul>
+    <a href="#top" id="fixed-top">Top</a>
+    <div class="footer">
+        <!-- This is homework-->
     </div>
 </body>
 </html>
