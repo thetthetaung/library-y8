@@ -34,3 +34,7 @@
     bottom:0;
     right:0;
 }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }

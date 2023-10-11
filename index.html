@@ -14,7 +14,7 @@
         <div class="header" id="top">
             <div class="row p-2">
                 <div class="col-md-8">
-                    <img src="Images/LOGO.jpg" alt="Logo" width="300px" height="100px">
+                    <a href="index.html"><img src="Images/LOGO.jpg" alt="Logo" width="300px" height="100px"></a>
                 </div>
                 
                 <div class="col-md-4 mx-auto">
@@ -27,8 +27,35 @@
             </div>
             <div class="container bg-white shadow">
                 <div class="row">
-                    <div class="col-md-12 text-center">
-                        <ul class="nav fixed">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+                            <div class="container d-flex">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="arrow down"></i></i></button>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                    </ul>
+                                </div>                              
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse flex-grow-1" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                  <a class="nav-link" href="#">About Us</a>
+                                  <a class="nav-link" href="#">Feactures</a>
+                                  <a class="nav-link" href="#">Resources</a>
+                                  <a class="nav-link" href="#">Services</a>
+                                </div>
+                              </div>
+                            </div>
+                          </nav>
+                        <!--<ul class="nav fixed">
                             <li class="nav-item"><a class="nav-link" href="">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="">About Us</a></li>
                             <li class="nav-item"><a class="nav-link" href="">Resources</a></li>
@@ -36,7 +63,7 @@
                             <li class="nav-item"><a class="nav-link" href="">News</a></li>
                             <li class="nav-item"><a class="nav-link" href="">Notice</a></li>
                             <li class="nav-item"><a class="nav-link" href="">Contact Us</a></li>
-                        </ul>
+                        </ul>-->
                     </div>
                 </div>
             </div>
